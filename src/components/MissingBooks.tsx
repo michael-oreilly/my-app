@@ -1,3 +1,7 @@
 export const MissingBooks = () => {
-  return <div></div>;
+  return (
+    <div>
+      <span>Missing Books</span>
+    </div>
+  );
 };
