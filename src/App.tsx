@@ -18,7 +18,7 @@ function App() {
   const RequireAuth: React.FC<{ children: React.ReactNode }> = ({
     children,
   }) => {
-    return currentUser ? <>{children}</> : <Navigate to="/register" />;
+    return currentUser ? <>{children}</> : <Navigate to="/login" />;
   };
 
   return (
